@@ -9,6 +9,7 @@
 /* navbar start */
 #navbar {
   background: #f9f9f9;
+  padding: 0 100px;
 }
 #logo {
   font-size: 36px;
@@ -20,7 +21,7 @@
 #logo span {
   color: orange;
 }
-.navbar-toggler {
+.navbar-toggler span {
   color: orange;
 }
 .navbar-nav {
