@@ -130,5 +130,8 @@
   transition: 0.5s;
   text-decoration: none;
 }
-
+.home .content a:hover {
+  background: orange;
+  color: #fff;
+}
 /* home section end  */
