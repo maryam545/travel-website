@@ -134,7 +134,79 @@
   background: orange;
   color: #fff;
 }
+@media (max-width: 850px) {
+  .home {
+    background-position: 50%;
+  }
+}
+@media (max-width: 450px) {
+  .home .content h5 {
+    font-size: 25px;
+  }
+  .home .content h1 {
+    font-size: 38px;
+  }
+  .home .content p {
+    font-size: 13px;
+  }
+}
 /* home section end  */
 
 /* section book start  */
+.book {
+  background: #f9f9f9;
+  padding: 50px;
+}
+.main-text h1 {
+  font-weight: 750;
+  text-align: center;
+  color: orange;
+  text-shadow: 0px 8px 8px rgb(0, 0, 0);
+}
+.main-text h1 span {
+  color: #000;
+}
+.book .row {
+  margin-top: 30px;
+}
+.book .card {
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px -6px #000;
+}
+.book form input {
+  padding: 10px;
+  color: #000;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px -6px #000;
+}
+.book form textarea {
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  box-shadow: 0px 5px 5px -6px #000;
+}
+.book .submit {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 550;
+  background: orange;
+  color: #fff;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.book .submit:hover {
+  width: 170px;
+}
+@media (max-width: 765px) {
+  .book {
+    padding: 0;
+  }
+  .main-text h1 {
+    padding: 20px;
+  }
+}
 /* section book end  */
